@@ -937,19 +937,3 @@ figure.effect-bubba figcaption {
     display: none;  /* إخفاء العناصر فوق الصور */
     padding: 0;
 }
-/* تغيير لون خلفية القائمة المنسدلة */
-.navbar-nav .dropdown-menu {
-    background-color: #FFD700; /* اللون الذهبي */
-}
-
-/* تغيير لون النص لعناصر القائمة المنسدلة */
-.navbar-nav .dropdown-menu .dropdown-item {
-    color: #000000; /* لون النص الأسود */
-}
-
-/* تغيير لون النص عند التمرير فوق العناصر */
-.navbar-nav .dropdown-menu .dropdown-item:hover,
-.navbar-nav .dropdown-menu .dropdown-item:focus {
-    color: #FFFFFF; /* لون النص الأبيض */
-    background-color: #B8860B; /* لون ذهبي أغمق */
-}
