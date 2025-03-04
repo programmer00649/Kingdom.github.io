@@ -376,7 +376,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
     top: 44px;
 }
 
-.cd-slider-nav .navbar-nav { background-color:#87CEEB; }
+.cd-slider-nav .navbar-nav { background-color:rgba(255,255,255,0.7; }
 
 .cd-slider-nav a, 
 .navbar-nav .nav-link { height: 50px; }
