@@ -937,3 +937,12 @@ figure.effect-bubba figcaption {
     display: none;  /* إخفاء العناصر فوق الصور */
     padding: 0;
 }
+/* إظهار معلومات المنتج فقط في الصفحة الأولى */
+.cd-hero-slider li:nth-of-type(1) .product-info {
+    display: block !important;
+}
+
+/* إخفاء معلومات المنتج في جميع الصفحات الأخرى */
+.cd-hero-slider li:not(:nth-of-type(1)) .product-info {
+    display: none !important;
+}
